@@ -1,0 +1,12 @@
+def middleNode(self, head):
+        if not head:
+            return head
+        if not head.next:
+            return head
+        
+        fast=head
+        slow=head
+        while(fast.next!=None):
+            fast=fast.next.next
+            slow=slow.next
+        return slow
