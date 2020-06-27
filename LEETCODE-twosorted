@@ -1,0 +1,14 @@
+ def mergeTwoLists(self, l1, l2):
+        ln = ListNode(0, None)
+        if l1 is None:
+            ln = l2
+        elif l2 is None:
+            ln = l1
+        elif l1.val <= l2.val:
+            ln.val = l1.val
+            ln.next = self.mergeTwoLists(l1.next, l2)
+        else:
+            ln.val = l2.val
+            ln.next = self.mergeTwoLists(l1, l2.next)
+        return ln
+        
