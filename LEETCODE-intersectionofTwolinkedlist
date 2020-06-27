@@ -1,0 +1,15 @@
+ def getIntersectionNode(self, headA, headB):
+       
+        pa, pb = headA, headB
+        counter = 0
+        while pa != None and pb != None:
+            if pa == pb:
+                return pa
+            if pa.next == None:
+                counter += 1
+                if counter == 2:
+                    return None
+            pa = (pa.next if pa.next != None else headB)
+            pb = (pb.next if pb.next != None else headA)
+        
+        return None
