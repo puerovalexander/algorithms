@@ -1,0 +1,7 @@
+ def isSubtree(self, s, t):
+        match=False
+        if not s and not t: return True
+        elif not s or not t: return False
+        if match and s.val != t.val: return False
+        if s.val == t.val and self.isSubtree(s.right, t.right, True) and self.isSubtree(s.left, t.left, True): return True
+        return self.isSubtree(s.right, t, match) or self.isSubtree(s.left, t, match)
