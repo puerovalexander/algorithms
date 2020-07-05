@@ -1,18 +1,19 @@
- def __init__(self, root):
-        self.stack = list()
-        self.addLeft(root)
-     
-    def addLeft(self, root):
-        while root:
-            self.stack.append(root)
-            root = root.left   
+class BSTIterator(object):
+    def __init__(self, root):
+            self.stack = list()
+            self.addLeft(root)
 
-    def next(self):
-        top = self.stack.pop()
-        if top.right:
-            self.addLeft(top.right)
-        return top.val
+        def addLeft(self, root):
+            while root:
+                self.stack.append(root)
+                root = root.left   
 
-    def hasNext(self):
-         return len(self.stack) > 0
-        
+        def next(self):
+            top = self.stack.pop()
+            if top.right:
+                self.addLeft(top.right)
+            return top.val
+
+        def hasNext(self):
+             return len(self.stack) > 0
+
