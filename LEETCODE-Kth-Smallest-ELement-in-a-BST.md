@@ -1,5 +1,6 @@
  ##Kth Smallest Element in a BST
  https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+ ```python
  def kthSmallest(self, root, k):
      stack = []
      res = []
@@ -11,3 +12,4 @@
          res.append(root)
          root = root.right
      return res[k-1].val
+```
