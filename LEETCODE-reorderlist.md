@@ -30,5 +30,5 @@ def reverse(self, head):
             current.next = prev
             current = current.next
             prev = current
-         return prev
+        return prev
 ```         
