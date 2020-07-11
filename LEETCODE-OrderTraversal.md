@@ -1,3 +1,6 @@
+##Binary Tree Level Order Traversal
+https://leetcode.com/problems/binary-tree-level-order-traversal/
+```python
 def levelOrder(self, root):
     if root == None:
         return []
@@ -13,3 +16,4 @@ def levelOrder(self, root):
         if n.right:
            q.append((n.right,l+1))
      return res 
+```
