@@ -15,5 +15,5 @@ class BSTIterator(object):
             self.addLeft(top.right)
         return top.val
     def hasNext(self):
-         return len(self.stack) > 0
+        return len(self.stack) > 0
 ```
