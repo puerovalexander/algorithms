@@ -21,10 +21,10 @@ def insert(self, intervals, newInterval):
     intervals.append(newInterval)        
     intervals.sort()        
     tmp = []
-        for interval in intervals:
-            if not tmp or tmp[-1][1] < interval[0]:
-                tmp.append(interval)
-            else:
-                tmp[-1][1] = max(tmp[-1][1], interval[1])        
+    for interval in intervals:
+        if not tmp or tmp[-1][1] < interval[0]:
+            tmp.append(interval)
+        else:
+            tmp[-1][1] = max(tmp[-1][1], interval[1])        
     return tmp
 ```    
