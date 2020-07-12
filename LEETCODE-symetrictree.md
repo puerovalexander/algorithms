@@ -1,5 +1,7 @@
-##Same Tree
+## Symmetric Tree
+
 https://leetcode.com/problems/symmetric-tree/
+
 ```python
 def isSymmetric(self, root):        
     if not root:
