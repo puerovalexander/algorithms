@@ -1,5 +1,7 @@
-##Invert Binary Tree 
+## Invert Binary Tree
+
 https://leetcode.com/problems/invert-binary-tree/
+
 ```python
 def invertTree(self, root):        
     if root == None:
