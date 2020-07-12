@@ -1,5 +1,7 @@
-##3Sum
+## 3Sum
+
 https://leetcode.com/problems/3sum/
+
 ```python
 def threeSum(self, nums):        
     nums.sort()
