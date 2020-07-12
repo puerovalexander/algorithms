@@ -1,5 +1,7 @@
 ## Validate Binary Search Tree
+
 https://leetcode.com/problems/validate-binary-search-tree/
+
 ``` python
 def isValidBST(self, root):       
     if not root:
