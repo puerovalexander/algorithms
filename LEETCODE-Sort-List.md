@@ -1,5 +1,7 @@
-##Sort List
+## Sort List
+
 https://leetcode.com/problems/sort-list/
+
 ```python
 def merge(self, left, right):
     head = ListNode(0)
