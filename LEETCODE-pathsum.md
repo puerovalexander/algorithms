@@ -1,5 +1,7 @@
-##Path Sum
+## Path Sum
+
 https://leetcode.com/problems/path-sum/
+
 ```python
 def hasPathSum(self, root, sum):
     if not root:
