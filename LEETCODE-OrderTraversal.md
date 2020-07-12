@@ -1,5 +1,7 @@
-##Binary Tree Level Order Traversal
+## Binary Tree Level Order Traversal
+
 https://leetcode.com/problems/binary-tree-level-order-traversal/
+
 ```python
 def levelOrder(self, root):
     if root == None:
