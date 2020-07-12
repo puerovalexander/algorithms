@@ -1,5 +1,7 @@
-##Subtree of Another Tree
+## Subtree of Another Tree
+
 https://leetcode.com/problems/subtree-of-another-tree/
+
 ```python
 def isEqual(self, s, t):
     if not s and not t:
