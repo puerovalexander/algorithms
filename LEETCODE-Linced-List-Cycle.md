@@ -1,5 +1,7 @@
 ## Linked List Cycle
+
 https://leetcode.com/problems/linked-list-cycle/
+
 ```python
  def hasCycle(self, head):
      fast = head
