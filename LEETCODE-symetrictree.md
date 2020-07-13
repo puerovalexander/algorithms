@@ -10,5 +10,5 @@ def isSymmetric(self, root):
 def check_Symmetry(self,left,right):
     if not left or not right:
         return not left and not right
-    return left.val==right.val and self.check_Symmetry(left.left,right.right) and self.check_Symmetry(left.right,right.left)
+    return left.val == right.val and self.check_Symmetry(left.left,right.right) and self.check_Symmetry(left.right,right.left)
 ```    
