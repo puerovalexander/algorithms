@@ -1,5 +1,7 @@
-##Merge Intervals
+## Merge Intervals
+
 https://leetcode.com/problems/merge-intervals/
+
 ```python
 def merge(self, intervals):
     i=1
