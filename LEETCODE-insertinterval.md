@@ -1,5 +1,7 @@
-##Insert Interval
+## Insert Interval
+
 https://leetcode.com/problems/insert-interval/
+
 ```python
 def insert(self, intervals, newInterval):
     mid = [newInterval[0], newInterval[1]]
