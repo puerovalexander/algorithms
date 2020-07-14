@@ -11,17 +11,17 @@ def reorderList(self, head):
        while fast and fast.next:
            slow = slow.next
            fast = fast.next.next
-       lhead = head
-       rhead = self.reverse(slow.next)
+       l_head = head
+       r_head = self.reverse(slow.next)
        slow.next = None           
-       lcurrent = lhead
-       rcurrent = rhead
-       while lcurrent and rcurrent:
-           tmp = rcurrent
-           rcurrent = rcurrent.next
-           tmp.next = lcurrent.next
-           lcurrent.next = tmp
-           lcurrent = lcurrent.next
+       l_current = l_head
+       r_current = r_head
+       while l_current and r_current:
+           tmp = r_current
+           r_current = r_current.next
+           tmp.next = l_current.next
+           l_current.next = tmp
+           l_current = l_current.next
 def reverse(self, head):
     if not head:
         return None
