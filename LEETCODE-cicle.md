@@ -11,5 +11,5 @@ def detectCycle(self, head):
             return fast 
         fast = fast.next.next                
         slow = slow.next        
-    return fast
+    return None
 ```
