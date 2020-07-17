@@ -4,13 +4,12 @@ https://leetcode.com/problems/linked-list-cycle-ii/
 
 ```python
 def detectCycle(self, head):
-    tmp = head
-    a = []
-    while(tmp):
-        if tmp not in a:
-            a.append(tmp)
-        else:
-            return tmp
-        tmp = tmp.next
-    return None
+    fast = head
+    slow = head        
+    while fast and fast.next:
+        if fast.next == slow:
+            return fast 
+        fast = fast.next.next                
+        slow = slow.next        
+    return fast
 ```
