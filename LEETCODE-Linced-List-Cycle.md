@@ -6,7 +6,7 @@ https://leetcode.com/problems/linked-list-cycle/
  def hasCycle(self, head):
      fast = head
      slow = head        
-     while(fast and fast.next):
+     while fast and fast.next:
          if fast.next == slow:
              return True 
          fast = fast.next.next                
