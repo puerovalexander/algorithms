@@ -22,6 +22,7 @@ def reorderList(self, head):
            tmp.next = l_current.next
            l_current.next = tmp
            l_current = l_current.next
+           
 def reverse(self, head):
     if not head:
         return None
