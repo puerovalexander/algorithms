@@ -1,3 +1,9 @@
+# arrays
+
++[Subarray Sum Equals K](#subarray-sum-equals-k)
++[Two sum](#two-sum)
++[#3Sum](#3sum)
+
 ## Subarray Sum Equals K
 
 https://leetcode.com/problems/subarray-sum-equals-k/
