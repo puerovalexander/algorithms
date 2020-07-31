@@ -1,7 +1,7 @@
 # arrays
 
 +[Subarray Sum Equals K](#subarray-sum-equals-k)
-+[#3Sum](#3sum)
++[3Sum](#3sum)
 +[Two sum](#two-sum)
 
 ## Subarray Sum Equals K
