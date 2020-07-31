@@ -1,3 +1,5 @@
+https://leetcode.com/problems/subarray-sum-equals-k/
+
 ## 3Sum
 
 https://leetcode.com/problems/3sum/
@@ -22,3 +24,8 @@ def threeSum(self, nums):
                 right -= 1
     return result
 ```
+
+
+## Two sum
+
+https://leetcode.com/problems/two-sum/
