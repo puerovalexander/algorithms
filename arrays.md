@@ -1,8 +1,8 @@
 # arrays
 
 +[Subarray Sum Equals K](#subarray-sum-equals-k)
-+[Two sum](#two-sum)
 +[#3Sum](#3sum)
++[Two sum](#two-sum)
 
 ## Subarray Sum Equals K
 
@@ -21,3 +21,10 @@ def subarraySum(self, nums, k):
         sum_dict[index] = sum_dict.setdefault(index, 0) + 1
     return count
 ```        
+## 3sum
+
+https://leetcode.com/problems/3sum/
+
+## Two sum
+
+https://leetcode.com/problems/two-sum/
