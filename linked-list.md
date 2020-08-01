@@ -53,3 +53,30 @@ def isPalindrome(self, head):
         firstHalf = self.reverseList(head)
     return self.isEqual(firstHalf, secondHalf)
 ```
+## Merge Two Sorted Lists
+
+https://leetcode.com/problems/merge-two-sorted-lists/
+ 
+## Remove Nth Node From End of List
+
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+## Linked List Cycle II
+
+https://leetcode.com/problems/linked-list-cycle-ii/
+
+## Linked List Cycle
+
+https://leetcode.com/problems/linked-list-cycle/
+
+## Reorder List
+
+https://leetcode.com/problems/reorder-list/
+
+## Intersection of Two Linked Lists
+
+https://leetcode.com/problems/intersection-of-two-linked-lists/
+
+## Sort List
+
+https://leetcode.com/problems/sort-list/
