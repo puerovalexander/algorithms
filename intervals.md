@@ -21,3 +21,11 @@ def eraseOverlapIntervals(self, intervals):
             i += 1
     return caunt
 ```
+
+## Merge Intervals
+
+https://leetcode.com/problems/merge-intervals/
+
+## Insert Intervals
+
+https://leetcode.com/problems/insert-interval/
